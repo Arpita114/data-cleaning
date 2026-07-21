@@ -1,0 +1,110 @@
+
+================================================================================
+DATA CLEANING & PREPROCESSING REPORT
+================================================================================
+Generated On: 2026-07-17 12:56:24
+Tool Version: 1.0
+
+--------------------------------------------------------------------------------
+ORIGINAL DATASET
+--------------------------------------------------------------------------------
+- Total Rows: 11
+- Total Columns: 8
+- Shape: (11, 8)
+- Memory Usage: 0.0 MB
+- Column Names: Customer_ID, Full Name,  Age, Email,  Phone, City, Signup_Date, Total_Purchases
+
+Data Types (Original):
+  - Customer_ID: str
+  - Full Name: str
+  -  Age: float64
+  - Email: str
+  -  Phone: str
+  - City: str
+  - Signup_Date: str
+  - Total_Purchases: str
+
+--------------------------------------------------------------------------------
+CLEANING SUMMARY
+--------------------------------------------------------------------------------
+- Missing Values Fixed: 3
+- Duplicates Removed: 1
+- Data Types Corrected: 1
+- String Cleaning Operations: 5
+- Numeric Cleaning Operations: 1
+- Date Formatting Operations: 1
+
+Missing Values Handling:
+  Strategy Used: mean
+  
+Duplicate Handling:
+  Strategy Used: Keep=first
+
+String Cleaning:
+  - Extra spaces removed
+  - Inconsistent casing handled (trimmed)
+  - Special characters check performed
+
+Date Formatting:
+  - Mixed formats converted to YYYY-MM-DD
+  Example: 12-04-24 -> 2024-04-12
+
+Numeric Cleaning:
+  - Commas removed (e.g., 1,000 -> 1000)
+  - Currency symbols removed (e.g., $500, ₹1000 -> 500, 1000)
+  - Negative values handled
+
+--------------------------------------------------------------------------------
+FINAL DATASET
+--------------------------------------------------------------------------------
+- Rows: 10
+- Columns: 8
+- Remaining Null Values: 0
+- Remaining Duplicates: 0
+- Validation Status: Validation Passed
+
+Column-wise Remaining Nulls:
+  - customer_id: 0
+  - full_name: 0
+  - age: 0
+  - email: 0
+  - phone: 0
+  - city: 0
+  - signup_date: 0
+  - total_purchases: 0
+
+Final Data Types:
+  - customer_id: str
+  - full_name: str
+  - age: float64
+  - email: str
+  - phone: str
+  - city: str
+  - signup_date: str
+  - total_purchases: int64
+
+Sample Cleaned Data (Top 5 Rows):
+  customer_id      full_name   age                    email         phone         city signup_date  total_purchases
+0        C001       John Doe  28.0       john.doe@email.com  123-456-7890     New York  2024-04-12             1500
+1        C002     Jane Smith  31.0     JANE.SMITH@EMAIL.COM  987-654-3210  Los Angeles  2023-04-15             2000
+2        C003    Bob Johnson  35.0          bob.j@email.com  123-456-7890      CHICAGO  2023-10-03             2300
+3        C004    Alice Brown  33.6    alice.brown@email.com  555-123-4567      Houston  2022-08-15             1800
+4        C005  Charlie Davis  42.0  charlie.davis@email.com  444-555-6666     New York  2022-05-11             3100
+
+--------------------------------------------------------------------------------
+VALIDATION CHECKS
+--------------------------------------------------------------------------------
+Missing Values After Cleaning: 0 
+  -> PASS
+
+Duplicate Records After Cleaning: 0
+  -> PASS
+
+Invalid Data Types After Cleaning: 0
+  -> PASS
+
+Overall Status: Validation Passed
+
+================================================================================
+END OF REPORT
+================================================================================

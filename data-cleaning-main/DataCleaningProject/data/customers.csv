@@ -1,0 +1,12 @@
+Customer_ID,Full Name, Age,Email, Phone,City,Signup_Date,Total_Purchases
+C001,John Doe,28,john.doe@email.com,123-456-7890, New York ,12-04-24,"$1,500"
+C002,Jane Smith,31,JANE.SMITH@EMAIL.COM,987-654-3210,Los Angeles,04/15/2023,2000
+C003, Bob Johnson ,35,bob.j@email.com,,CHICAGO,2023-03-10,"$2,300"
+C004,Alice Brown,,alice.brown@email.com,555-123-4567, Houston ,15-08-22,1800
+C005,Charlie Davis,42,charlie.davis@email.com,444-555-6666, New York,2022/11/05,"$3,100"
+C006,Eve Wilson,29,  eve.wilson@email.com  ,333-444-5555,Los Angeles,2024-01-20,950
+C001,John Doe,28,john.doe@email.com,123-456-7890, New York ,12-04-24,"$1,500"
+C007,Frank Miller,45,frank.miller@email.com,222-333-4444,San Francisco,20-12-23,"$4,200"
+C008,Grace Lee,33,grace.lee@email.com,111-222-3333,CHICAGO,03/22/2024,2100
+C009,Henry Taylor,38,HENRY.TAYLOR@EMAIL.COM,999-888-7777, Houston ,2023-07-14,"$1,800"
+C010,Irene Anderson,27,irene.anderson@email.com,, Boston ,07-09-23,1200

@@ -1,0 +1,110 @@
+
+================================================================================
+DATA CLEANING & PREPROCESSING REPORT
+================================================================================
+Generated On: 2026-07-17 12:54:59
+Tool Version: 1.0
+
+--------------------------------------------------------------------------------
+ORIGINAL DATASET
+--------------------------------------------------------------------------------
+- Total Rows: 15
+- Total Columns: 8
+- Shape: (15, 8)
+- Memory Usage: 0.01 MB
+- Column Names: Order_ID, Product ,  Quantity,  Unit_Price,  Order_Date,  Customer_Name , Region, Status
+
+Data Types (Original):
+  - Order_ID: int64
+  - Product : str
+  -  Quantity: float64
+  -  Unit_Price: str
+  -  Order_Date: str
+  -  Customer_Name : str
+  - Region: str
+  - Status: str
+
+--------------------------------------------------------------------------------
+CLEANING SUMMARY
+--------------------------------------------------------------------------------
+- Missing Values Fixed: 2
+- Duplicates Removed: 1
+- Data Types Corrected: 1
+- String Cleaning Operations: 4
+- Numeric Cleaning Operations: 1
+- Date Formatting Operations: 1
+
+Missing Values Handling:
+  Strategy Used: mean
+  
+Duplicate Handling:
+  Strategy Used: Keep=first
+
+String Cleaning:
+  - Extra spaces removed
+  - Inconsistent casing handled (trimmed)
+  - Special characters check performed
+
+Date Formatting:
+  - Mixed formats converted to YYYY-MM-DD
+  Example: 12-04-24 -> 2024-04-12
+
+Numeric Cleaning:
+  - Commas removed (e.g., 1,000 -> 1000)
+  - Currency symbols removed (e.g., $500, ₹1000 -> 500, 1000)
+  - Negative values handled
+
+--------------------------------------------------------------------------------
+FINAL DATASET
+--------------------------------------------------------------------------------
+- Rows: 14
+- Columns: 8
+- Remaining Null Values: 0
+- Remaining Duplicates: 0
+- Validation Status: Validation Passed
+
+Column-wise Remaining Nulls:
+  - order_id: 0
+  - product: 0
+  - quantity: 0
+  - unit_price: 0
+  - order_date: 0
+  - customer_name: 0
+  - region: 0
+  - status: 0
+
+Final Data Types:
+  - order_id: int64
+  - product: str
+  - quantity: float64
+  - unit_price: float64
+  - order_date: str
+  - customer_name: str
+  - region: str
+  - status: str
+
+Sample Cleaned Data (Top 5 Rows):
+   order_id   product  quantity  unit_price  order_date  customer_name region     status
+0      1001    Laptop       2.0      1200.0  2024-04-12       John Doe  North  Completed
+1      1002     Mouse       5.0        25.5  2023-04-15     Jane Smith  South    pending
+2      1003  Keyboard       3.0        75.0  2023-10-03    BOB JOHNSON   East  Completed
+3      1004   Monitor       1.0       300.0  2022-08-15    Alice Brown   West  completed
+4      1005    Laptop       1.0      1150.0  2022-05-11  Charlie Davis  North  COMPLETED
+
+--------------------------------------------------------------------------------
+VALIDATION CHECKS
+--------------------------------------------------------------------------------
+Missing Values After Cleaning: 0 
+  -> PASS
+
+Duplicate Records After Cleaning: 0
+  -> PASS
+
+Invalid Data Types After Cleaning: 0
+  -> PASS
+
+Overall Status: Validation Passed
+
+================================================================================
+END OF REPORT
+================================================================================

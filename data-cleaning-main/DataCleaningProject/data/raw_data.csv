@@ -1,0 +1,51 @@
+ID,Name, Age ,Salary,Department,City,Joining_Date,Email,Is_Active,Performance_Score
+1,John Doe,28,"$5,000", Sales ,  New York ,12-04-24,john.doe@email.com,Yes,85
+2,Jane Smith,,6500,Marketing,Los Angeles,04/15/2023,jane.smith@email.com,No,92
+3,Bob Johnson,35,"$7,200",Sales,  CHICAGO ,2023-03-10,BOB.JOHNSON@EMAIL.COM,Yes,78
+4,Alice Brown,29,4800,HR, Houston ,15-08-22,alice.brown@email.com,TRUE,88
+5,Charlie Davis,42,"$8,500", Finance ,  New York,2022/11/05,charlie.davis@email.com,1,95
+6,Eve Wilson,31,,Marketing,  Los Angeles ,2024-01-20,eve.wilson@email.com,No,
+7,John Doe,28,"$5,000", Sales ,  New York ,12-04-24,john.doe@email.com,Yes,85
+8,   Frank Miller   ,45,"$9,000",IT,San Francisco,20-12-23,frank.miller@email.com,Yes,80
+9,Grace Lee,,7200,Finance,CHICAGO,03/22/2024,grace.lee@email.com,No,90
+10,Henry Taylor,38,"$6,800",  Sales,  Houston,2023-07-14,HENRY.TAYLOR@EMAIL.COM,Yes,82
+11,Irene Anderson,27,5100,HR, Boston ,07-09-23,irene.anderson@email.com,False,87
+12,Jack Thomas,33,"$6,200",IT,  Boston,09/30/2022,jack.thomas@email.com,1,91
+13,Karen White,,5800,Marketing,Seattle,2023-05-18,karen.white@email.com,Yes,84
+14,Leo Harris,29,"$5,500",Sales,Seattle ,18-11-23,leo.harris@email.com,No,79
+15,Mia Clark,26,4900,HR, New York,11-05-24,mia.clark@email.com,Yes,86
+16,Noah Lewis,40,"$8,000",Finance,  Chicago,2023-02-28,noah.lewis@email.com,TRUE,93
+17,Olivia Walker,32,6200,IT,Los Angeles,04-12-2023,olivia.walker@email.com,Yes,89
+18,Peter Hall,37,"$7,100",Sales, Houston ,2022-10-10,peter.hall@email.com,No,75
+19,Quinn Allen,30,5400,Marketing,  Boston,13-06-23,quinn.allen@email.com,Yes,88
+20,Rachel Young,28,"$5,300",HR,San Francisco,05/08/2023,rachel.young@email.com,No,81
+21,Steve King,44,"$9,500",Finance,New York,2024-02-15,steve.king@email.com,Yes,96
+22,Tina Wright,31,6000,IT,  Seattle ,2023-09-22,tina.wright@email.com,1,83
+23,Umar Scott,,6700,Sales,Chicago,22-07-23,umar.scott@email.com,No,77
+24,Victor Green,36,"$7,400",Marketing,Houston ,2023-04-30,victor.green@email.com,Yes,90
+25,Wendy Adams,29,5300,HR, Los Angeles ,2024-03-11,wendy.adams@email.com,TRUE,85
+26,Xavier Baker,41,"$8,200",Finance,Boston,10/12/2022,xavier.baker@email.com,False,92
+27,Yvonne Nelson,27,5000,IT,San Francisco,15-02-24,yvonne.nelson@email.com,Yes,86
+28,Zack Carter,34,"$6,500",Sales, New York,2023-06-05,zack.carter@email.com,No,79
+29,Aaron Mitchell,30,5700,Marketing, Seattle ,04/25/2024,  aaron.mitchell@email.com  ,Yes,88
+30,Bella Perez,28,"$5,400",HR,Chicago,25-12-23,bella.perez@email.com,Yes,84
+31,John Doe,28,"$5,000", Sales ,  New York ,12-04-24,john.doe@email.com,Yes,85
+32,Chris Roberts,39,"$7,800",Finance,Houston,2023-08-19,chris.roberts@email.com,1,91
+33,Diana Evans,32,6300,IT,Boston ,2023-11-11,diana.evans@email.com,No,87
+34,Edward Turner,45,"$9,200",Sales, Los Angeles ,12/01/2022,edward.turner@email.com,Yes,80
+35,Fiona Phillips,26,4800,Marketing,San Francisco,05-03-24,fiona.phillips@email.com,TRUE,89
+36,George Campbell,38,"$7,000",HR,Seattle,2024-01-05,george.campbell@email.com,False,83
+37,Hannah Parker,29,5500,Finance, New York ,2023-10-20,hannah.parker@email.com,Yes,90
+38,Ian Edwards,33,"$6,300",IT,Chicago,14-04-23,ian.edwards@email.com,No,85
+39,Julia Collins,31,6100,Sales,Houston,06/18/2023,julia.collins@email.com,Yes,88
+40,Kevin Stewart,36,"$7,300",Marketing,Boston ,2023-03-25,kevin.stewart@email.com,1,86
+41,Laura Sanchez,28,5200,HR, Los Angeles ,19-09-23,laura.sanchez@email.com,Yes,84
+42,Mike Morris,42,"$8,700",Finance,San Francisco,2023-12-01,mike.morris@email.com,No,94
+43,Nina Rogers,30,"$5,900",IT,Seattle,07/14/2023,nina.rogers@email.com,Yes,87
+44,Oscar Reed,35,6800,Sales,New York,26-11-23,oscar.reed@email.com,TRUE,82
+45,Paula Cook,29,"$5,600",Marketing,Chicago ,2024-02-28,paula.cook@email.com,False,89
+46,Quentin Bell,40,"$8,100",HR,Houston,2023-01-15,quentin.bell@email.com,Yes,85
+47,Rita Murphy,27,4950,Finance,  Boston,11/20/2023,rita.murphy@email.com,No,88
+48,Sam Bailey,33,"$6,400",IT, Los Angeles ,15-05-24,sam.bailey@email.com,Yes,90
+49,Tara Rivera,32,6250,Sales,San Francisco,2023-04-05,tara.rivera@email.com,1,84
+50,Uma Coleman,31,,Marketing,Seattle,09-10-23,uma.coleman@email.com,No,86

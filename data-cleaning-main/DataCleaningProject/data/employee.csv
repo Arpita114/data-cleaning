@@ -1,0 +1,14 @@
+Emp_ID,Emp_Name,Dept, Salary ,Join_Date,Location,Manager_ID
+E001,John Doe, Sales ,"$5,000",12-04-24, New York ,M001
+E002,Jane Smith,Marketing,6500,04/15/2023,Los Angeles,M002
+E003,Bob Johnson,Sales,"$7,200",2023-03-10,CHICAGO,M001
+E004,Alice Brown,HR,4800,15-08-22,Houston ,M003
+E005,Charlie Davis,Finance,"$8,500",2022/11/05,New York,M004
+E006,Eve Wilson,Marketing,,2024-01-20,Los Angeles,M002
+E001,John Doe, Sales ,"$5,000",12-04-24, New York ,M001
+E007, Frank Miller ,IT,"$9,000",20-12-23,San Francisco,M005
+E008,Grace Lee,Finance,7200,03/22/2024,CHICAGO,M004
+E009,Henry Taylor,Sales,"$6,800",2023-07-14,Houston,M001
+E010,Irene Anderson,HR,5100,07-09-23,Boston ,M003
+E011,Jack Thomas,IT,"$6,200",09/30/2022,Boston,M005
+E012,Karen White,Marketing,5800,2023-05-18,Seattle,M002

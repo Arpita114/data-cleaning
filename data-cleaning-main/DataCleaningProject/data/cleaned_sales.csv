@@ -1,0 +1,15 @@
+order_id,product,quantity,unit_price,order_date,customer_name,region,status
+1001,Laptop,2.0,1200.0,2024-04-12,John Doe,North,Completed
+1002,Mouse,5.0,25.5,2023-04-15,Jane Smith,South,pending
+1003,Keyboard,3.0,75.0,2023-10-03,BOB JOHNSON,East,Completed
+1004,Monitor,1.0,300.0,2022-08-15,Alice Brown,West,completed
+1005,Laptop,1.0,1150.0,2022-05-11,Charlie Davis,North,COMPLETED
+1006,Mouse,10.0,22.0,2024-01-20,Eve Wilson,South,Pending
+1007,Desk Chair,2.0,150.0,2023-12-20,Frank Miller,East,completed
+1008,Keyboard,3.857142857142857,80.0,2024-03-22,Grace Lee,West,Completed
+1009,Monitor,2.0,310.0,2023-07-14,Henry Taylor,North,completed
+1010,Laptop,1.0,362.32142857142856,2023-09-07,Irene Anderson,South,Pending
+1011,Mouse,20.0,20.0,2022-09-30,Jack Thomas,East,completed
+1012,Keyboard,1.0,90.0,2023-05-18,Karen White,West,COMPLETED
+1013,Monitor,3.0,295.0,2023-11-18,Leo Harris,North,Completed
+1014,Desk Chair,1.0,155.0,2024-05-11,Mia Clark,South,pending

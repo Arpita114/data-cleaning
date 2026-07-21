@@ -1,0 +1,16 @@
+Order_ID,Product , Quantity, Unit_Price, Order_Date, Customer_Name ,Region,Status
+1001, Laptop ,2,"$1,200",12-04-24, John Doe ,  North ,Completed
+1002,Mouse,5,25.50,04/15/2023,Jane Smith,South,pending
+1003,Keyboard,3,"$75",2023-03-10,BOB JOHNSON,East, Completed
+1004,Monitor,1,"$300",15-08-22,Alice Brown, West ,completed
+1005,Laptop,1,"$1,150",2022/11/05,Charlie Davis,North,COMPLETED
+1006, Mouse ,10,22,2024-01-20,Eve Wilson,South,Pending
+1001, Laptop ,2,"$1,200",12-04-24, John Doe ,  North ,Completed
+1007,Desk Chair,2,"$150",20-12-23,Frank Miller,East,completed
+1008,Keyboard,,80,03/22/2024,Grace Lee,West,  Completed 
+1009,Monitor,2,"$310",2023-07-14,Henry Taylor,North,completed
+1010, Laptop,1,,07-09-23,Irene Anderson,South,Pending
+1011,Mouse,20,"$20",09/30/2022,Jack Thomas,East,completed
+1012,Keyboard,1,"$90",2023-05-18,Karen White,West,COMPLETED
+1013, Monitor ,3,295,18-11-23,Leo Harris,North,Completed
+1014,Desk Chair,1,"$155",11-05-24,Mia Clark,South,pending
